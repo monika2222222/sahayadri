@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.page-first {
+    height: 770px;
+    background: url(./img/bg2.jpg) no-repeat center/cover;
+}
+
+#heading {
+    margin: 20px;
+    padding: 7px;
+    color: rgb(74, 94, 9); ;
+}
+
+.cont-1 {
+    height: 570px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+#info-content {
+    height: 456px;
+    width: 456px;
+    font-size: 35px;
+    text-align: center;
+    height: 400px;
+    width: 656px;
+    margin-right: 30px;
+    color: rgb(14, 13, 13);
+
+}
+
+.page-second {
+    background-color: rgb(244, 229, 229);
+    height: 840px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#img-flower img {
+    height: 267px;
+    width: 300px;
+    margin: 45px;
+    border-radius: 10px;
+
+}
+
+#info-flower {
+    height: 300px;
+    width: 600px;
+    margin: 45px;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+#info-flower p {
+    margin-top: 26px;
+}
+
+button {
+    height: 45px;
+    width: 105px;
+    border-radius: 20%;
+    background-color: rgb(77, 91, 36);
+    border: none;
+    margin-top: 25px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.page-third {
+    background-color: rgb(191, 186, 142);
+    height: 750px;
+}
+
+.container2 {
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#img-tree img {
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+#info-tree p {
+    margin-top: 26px;
+    font-size: 28px;
+    line-height: 33px;
+    width: 550px;
+}
+
+#info-tree h2 {
+    font-size: 35px;
+}
+
+.more-to {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.explore p {
+    height: 60px;
+    width: 145px;
+    border: none;
+    background-color: rgb(87, 67, 3);
+    border-radius: 30px;
+    color: aliceblue;
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.page-forth {
+    height: 670px;
+    background: url(./img/water1.avif) no-repeat center/cover;
+    border-bottom: 5px solid black;
+}
+
+.beauty h1 {
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: aliceblue;
+    margin-left: 105px;
+}
+footer{
+    height: 75px;
+    text-align: center;
+    background-color: rgb(48, 46, 46);
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
